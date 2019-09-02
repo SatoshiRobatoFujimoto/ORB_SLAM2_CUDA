@@ -30,6 +30,7 @@
 
 #include"System.h"
 #include <Utils.hpp>
+#define CV_LOAD_IMAGE_UNCHANGED -1 //added to avoid build errors
 
 using namespace std;
 

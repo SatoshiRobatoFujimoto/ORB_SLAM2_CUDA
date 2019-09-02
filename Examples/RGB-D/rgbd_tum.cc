@@ -28,6 +28,7 @@
 #include<opencv2/core/core.hpp>
 
 #include<System.h>
+#define CV_LOAD_IMAGE_UNCHANGED -1 //added to avoid build errors
 
 using namespace std;
 

@@ -30,6 +30,7 @@
 #include<System.h>
 
 using namespace std;
+#define CV_LOAD_IMAGE_UNCHANGED -1 //added to avoid build errors
 
 void LoadImages(const string &strFile, vector<string> &vstrImageFilenames,
                 vector<double> &vTimestamps);
